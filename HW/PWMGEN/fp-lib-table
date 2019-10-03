@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name KSC931JLFS_Tactile_SPST_Momentary_JLead)(type KiCad)(uri ${KIPRJMOD}/lib/KSC931JLFS_Tactile_SPST_Momentary_JLead.pretty)(options "")(descr ""))
+  (lib (name DailywellSwitches)(type KiCad)(uri ${KIPRJMOD}/lib/DailywellSwitches.pretty)(options "")(descr ""))
+)
