@@ -386,7 +386,7 @@ $EndComp
 Wire Wire Line
 	7600 3650 7600 3850
 $Comp
-L Regulator_Linear:LM78M05_TO220 U2
+L PWMGEN-rescue:LM78M05_TO220-Regulator_Linear U2
 U 1 1 5D9A22DE
 P 4300 1750
 F 0 "U2" H 4300 1989 50  0000 C CNN
@@ -397,7 +397,7 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22056b.pdf" H 4300 1700 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LM78M05_TO220 U3
+L PWMGEN-rescue:LM78M05_TO220-Regulator_Linear U3
 U 1 1 5D9A33C6
 P 2800 1750
 F 0 "U3" H 2800 1989 50  0000 C CNN
@@ -812,7 +812,7 @@ U 1 1 5DA38252
 P 3950 6200
 F 0 "R7" V 3850 6150 50  0000 L CNN
 F 1 "5K6" V 4050 6150 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3880 6200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3880 6200 50  0001 C CNN
 F 3 "~" H 3950 6200 50  0001 C CNN
 	1    3950 6200
 	0    1    1    0   

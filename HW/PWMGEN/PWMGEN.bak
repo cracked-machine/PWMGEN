@@ -249,7 +249,7 @@ U 1 1 5D970BF9
 P 3700 7000
 F 0 "R1" H 3770 7045 50  0000 L CNN
 F 1 "1K" H 3770 6956 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3630 7000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3630 7000 50  0001 C CNN
 F 3 "~" H 3700 7000 50  0001 C CNN
 	1    3700 7000
 	1    0    0    -1  
@@ -276,16 +276,16 @@ Wire Wire Line
 $Comp
 L power:GNDS #PWR05
 U 1 1 5D976D84
-P 1150 7250
-F 0 "#PWR05" H 1150 7000 50  0001 C CNN
-F 1 "GNDS" H 1155 7079 50  0000 C CNN
-F 2 "" H 1150 7250 50  0001 C CNN
-F 3 "" H 1150 7250 50  0001 C CNN
-	1    1150 7250
+P 1500 7250
+F 0 "#PWR05" H 1500 7000 50  0001 C CNN
+F 1 "GNDS" H 1505 7079 50  0000 C CNN
+F 2 "" H 1500 7250 50  0001 C CNN
+F 3 "" H 1500 7250 50  0001 C CNN
+	1    1500 7250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 7250 1150 7100
+	1500 7250 1500 7100
 Text Label 3000 6550 2    50   ~ 0
 PSC_SELECT
 Wire Wire Line
@@ -386,7 +386,7 @@ $EndComp
 Wire Wire Line
 	7600 3650 7600 3850
 $Comp
-L Regulator_Linear:LM78M05_TO220 U2
+L PWMGEN-rescue:LM78M05_TO220-Regulator_Linear U2
 U 1 1 5D9A22DE
 P 4300 1750
 F 0 "U2" H 4300 1989 50  0000 C CNN
@@ -397,7 +397,7 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22056b.pdf" H 4300 1700 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LM78M05_TO220 U3
+L PWMGEN-rescue:LM78M05_TO220-Regulator_Linear U3
 U 1 1 5D9A33C6
 P 2800 1750
 F 0 "U3" H 2800 1989 50  0000 C CNN
@@ -794,9 +794,6 @@ F 3 "~" H 1850 6800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 6650 1500 6550
-Connection ~ 1500 6550
-Wire Wire Line
-	1500 6550 1150 6550
 Wire Wire Line
 	1850 6650 1850 6550
 Connection ~ 1850 6550
@@ -806,21 +803,16 @@ Wire Wire Line
 	1850 6950 1850 7100
 Wire Wire Line
 	1850 7100 1500 7100
-Connection ~ 1150 7100
-Wire Wire Line
-	1150 7100 1150 6550
 Wire Wire Line
 	1500 6950 1500 7100
 Connection ~ 1500 7100
-Wire Wire Line
-	1500 7100 1150 7100
 $Comp
 L Device:R R7
 U 1 1 5DA38252
 P 3950 6200
 F 0 "R7" V 3850 6150 50  0000 L CNN
 F 1 "5K6" V 4050 6150 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3880 6200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3880 6200 50  0001 C CNN
 F 3 "~" H 3950 6200 50  0001 C CNN
 	1    3950 6200
 	0    1    1    0   

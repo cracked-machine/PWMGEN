@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Tactile_SPST-NO)(type Legacy)(uri ${KIPRJMOD}/lib/Tactile_SPST-NO.lib)(options "")(descr ""))
   (lib (name LM4132)(type Legacy)(uri ${KIPRJMOD}/lib/LM4132.lib)(options "")(descr ""))
+  (lib (name PWMGEN-rescue)(type Legacy)(uri ${KIPRJMOD}/PWMGEN-rescue.lib)(options "")(descr ""))
 )
