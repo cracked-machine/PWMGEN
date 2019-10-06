@@ -1,0 +1,607 @@
+!SESSION 2019-10-05 17:54:30.608 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data H:\Workspace\ElectronicsProjects\Misc\PWMGEN
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 17:54:31.821
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 17:54:31.828
+!MESSAGE OS info: Windows 7, 6.1, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-10-05 17:54:32.826
+!MESSAGE Target: STM32, Version: 9.2.0, Build date: 20181203-0921, Installation dir: /H:/Programs/TrueSTUDIO for STM32 9.2.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-10-05 17:54:32.826
+!MESSAGE Workspace: H:\Workspace\ElectronicsProjects\Misc\PWMGEN
+
+!ENTRY org.eclipse.jface 2 0 2019-10-05 17:54:34.022
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-10-05 17:54:34.022
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c4f02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9d6de5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-10-05 17:54:38.500
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-10-05 17:54:38.519
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-05 17:54:38.683
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chris'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 17:55:14.912
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.general.runtimelib.1609080874' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 17:55:14.912
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.mcu.1006798124' fixed. Fixing to 'STM32F051K8'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 17:55:14.913
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.vendor.2053284518' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 17:55:14.936
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.general.runtimelib.242724689' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 17:55:14.937
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.mcu.24843580' fixed. Fixing to 'STM32F051K8'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 17:55:14.937
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.vendor.2122908000' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-05 17:55:19.211
+!MESSAGE Indexed 'PWMGEN_STM32F051' (20 sources, 100 headers) in 2.88 sec: 8,328 declarations; 24,813 references; 0 unresolved inclusions; 82 syntax errors; 134 unresolved names (0.4%)
+
+!ENTRY TrueSTUDIO 4 0 2019-10-05 17:55:54.045
+!MESSAGE ST-LINK GDB server failed to start (exit code = 4)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 17:55:54.112
+!MESSAGE Error in initializing ST-Link device.
+Reason: (4) No device found on target.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 17:57:04.844
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 17:58:07.653
+!MESSAGE Unloading product manager
+!SESSION 2019-10-05 18:03:25.270 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 18:03:31.194
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 18:03:31.205
+!MESSAGE OS info: Windows 7, 6.1, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-10-05 18:03:32.193
+!MESSAGE Target: STM32, Version: 9.2.0, Build date: 20181203-0921, Installation dir: /H:/Programs/TrueSTUDIO for STM32 9.2.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-10-05 18:03:32.194
+!MESSAGE Workspace: H:\Workspace\ElectronicsProjects\Misc\PWMGEN
+
+!ENTRY org.eclipse.jface 2 0 2019-10-05 18:03:33.432
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-10-05 18:03:33.432
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15b9521,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f7c02d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-10-05 18:03:36.068
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-10-05 18:03:36.106
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-05 18:03:36.213
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chris'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:03:45.027
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.general.runtimelib.1611552976' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:03:45.030
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.mcu.91226916' fixed. Fixing to 'STM32F051K8'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:03:45.031
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.vendor.1909779711' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:03:45.187
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.general.runtimelib.1831179823' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:03:45.188
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.mcu.618373362' fixed. Fixing to 'STM32F051K8'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:03:45.188
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.vendor.1866437671' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY org.eclipse.ui 4 4 2019-10-05 18:03:52.703
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.TaskList.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:06:41.663
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.general.runtimelib.145805034' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:06:41.664
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.mcu.567609717' fixed. Fixing to 'STM32F051K8'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:06:41.664
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.vendor.723453880' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:06:41.681
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.general.runtimelib.184166146' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:06:41.682
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.mcu.1520189645' fixed. Fixing to 'STM32F051K8'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:06:41.682
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.vendor.1391089014' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:08:31.182
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.general.runtimelib.1623776869' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:08:31.183
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.mcu.1293209919' fixed. Fixing to 'STM32F051K8'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:08:31.184
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.vendor.2132054525' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:08:31.209
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.general.runtimelib.631874084' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:08:31.210
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.mcu.1477447852' fixed. Fixing to 'STM32F051K8'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:08:31.210
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.vendor.200560818' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:14:41.185
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.general.runtimelib.1652777234' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:14:41.186
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.mcu.1094632600' fixed. Fixing to 'STM32F051K8'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:14:41.187
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.vendor.1673142857' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:14:41.208
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.general.runtimelib.13677022' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:14:41.208
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.mcu.626727532' fixed. Fixing to 'STM32F051K8'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2019-10-05 18:14:41.209
+!MESSAGE PWMGEN_STM32F051 needs property 'com.atollic.truestudio.toolchain_options.vendor.905224226' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY TrueSTUDIO 4 0 2019-10-05 18:46:16.092
+!MESSAGE ST-LINK GDB server failed to start (exit code = 4)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 18:46:16.138
+!MESSAGE Error in initializing ST-Link device.
+Reason: (4) No device found on target.
+
+!ENTRY TrueSTUDIO 4 0 2019-10-05 18:47:44.959
+!MESSAGE ST-LINK GDB server failed to start (exit code = 255)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 18:47:45.011
+!MESSAGE Error in initializing ST-Link device.
+Reason: (255) Unknown. Please check power and cabling to target.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 18:50:03.492
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 18:50:16.929
+!MESSAGE Unloading product manager
+!SESSION 2019-10-05 18:50:18.409 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 18:50:23.117
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 18:50:23.128
+!MESSAGE OS info: Windows 7, 6.1, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-10-05 18:50:24.104
+!MESSAGE Target: STM32, Version: 9.2.0, Build date: 20181203-0921, Installation dir: /H:/Programs/TrueSTUDIO for STM32 9.2.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-10-05 18:50:24.104
+!MESSAGE Workspace: H:\Workspace\ElectronicsProjects\Misc\PWMGEN
+
+!ENTRY org.eclipse.jface 2 0 2019-10-05 18:50:25.330
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-10-05 18:50:25.330
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a8297b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@44bdf5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-10-05 18:50:29.546
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-10-05 18:50:29.602
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-05 18:50:29.709
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chris'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 18:51:01.143
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 18:51:25.303
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 18:51:30.907
+!MESSAGE Unloading product manager
+!SESSION 2019-10-05 18:56:20.686 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 18:56:23.198
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 18:56:23.212
+!MESSAGE OS info: Windows 7, 6.1, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-10-05 18:56:24.205
+!MESSAGE Target: STM32, Version: 9.2.0, Build date: 20181203-0921, Installation dir: /H:/Programs/TrueSTUDIO for STM32 9.2.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-10-05 18:56:24.206
+!MESSAGE Workspace: H:\Workspace\ElectronicsProjects\Misc\PWMGEN
+
+!ENTRY org.eclipse.jface 2 0 2019-10-05 18:56:25.445
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-10-05 18:56:25.445
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1927bc9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3efafe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-10-05 18:56:29.528
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-10-05 18:56:29.573
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-05 18:56:29.699
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chris'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY TrueSTUDIO 4 0 2019-10-05 18:56:41.274
+!MESSAGE ST-LINK GDB server failed to start (exit code = 255)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 18:56:41.348
+!MESSAGE Error in initializing ST-Link device.
+Reason: (255) Unknown. Please check power and cabling to target.
+
+!ENTRY TrueSTUDIO 4 0 2019-10-05 18:57:03.795
+!MESSAGE ST-LINK GDB server failed to start (exit code = 255)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 18:57:03.846
+!MESSAGE Error in initializing ST-Link device.
+Reason: (255) Unknown. Please check power and cabling to target.
+
+!ENTRY TrueSTUDIO 4 0 2019-10-05 18:57:14.911
+!MESSAGE ST-LINK GDB server failed to start (exit code = 255)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 18:57:14.948
+!MESSAGE Error in initializing ST-Link device.
+Reason: (255) Unknown. Please check power and cabling to target.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 18:58:18.735
+!MESSAGE Unloading product manager
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-10-05 18:58:21.126
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.core.DebugPlugin$EventDispatchJob
+!SESSION 2019-10-05 19:04:56.619 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 19:04:59.692
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 19:04:59.704
+!MESSAGE OS info: Windows 7, 6.1, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-10-05 19:05:00.670
+!MESSAGE Target: STM32, Version: 9.2.0, Build date: 20181203-0921, Installation dir: /H:/Programs/TrueSTUDIO for STM32 9.2.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-10-05 19:05:00.670
+!MESSAGE Workspace: H:\Workspace\ElectronicsProjects\Misc\PWMGEN
+
+!ENTRY org.eclipse.jface 2 0 2019-10-05 19:05:01.936
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-10-05 19:05:01.936
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4136c1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d88c38,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-10-05 19:05:06.095
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-10-05 19:05:06.149
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-05 19:05:06.242
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chris'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY TrueSTUDIO 4 0 2019-10-05 19:05:14.166
+!MESSAGE ST-LINK GDB server failed to start (exit code = 255)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 19:05:14.237
+!MESSAGE Error in initializing ST-Link device.
+Reason: (255) Unknown. Please check power and cabling to target.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 19:07:35.721
+!MESSAGE Unloading product manager
+!SESSION 2019-10-05 20:49:52.098 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 20:50:19.450
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-05 20:50:19.467
+!MESSAGE OS info: Windows 7, 6.1, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-10-05 20:50:22.267
+!MESSAGE Target: STM32, Version: 9.2.0, Build date: 20181203-0921, Installation dir: /H:/Programs/TrueSTUDIO for STM32 9.2.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-10-05 20:50:22.267
+!MESSAGE Workspace: H:\Workspace\ElectronicsProjects\Misc\PWMGEN
+
+!ENTRY org.eclipse.jface 2 0 2019-10-05 20:50:25.777
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-10-05 20:50:25.777
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@116b881,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e8ce1b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-10-05 20:50:35.451
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-05 20:50:35.667
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chris'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-10-05 20:50:35.726
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 20:51:46.132
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 20:52:16.273
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 20:53:36.971
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 20:55:55.917
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61235
+
+Error message from debugger back end:
+localhost:61235: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 20:58:28.814
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 21:01:59.718
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 21:02:22.658
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 21:06:15.924
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY TrueSTUDIO 4 0 2019-10-05 21:06:29.761
+!MESSAGE ST-LINK GDB server failed to start (exit code = 255)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 21:06:29.800
+!MESSAGE Error in initializing ST-Link device.
+Reason: (255) Unknown. Please check power and cabling to target.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 21:07:48.853
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 21:08:21.323
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 21:08:57.043
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-05 21:11:45.406
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY com.atollic.hardwaredebug.launch 2 0 2019-10-05 21:44:30.344
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-06 02:39:06.370
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-10-06 02:40:29.520
+!MESSAGE Unloading product manager
