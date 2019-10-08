@@ -2,5 +2,7 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
 configDescList=org.eclipse.launchbar.core.descriptorType.default\:PWMGEN.elf,org.eclipse.launchbar.core.descriptorType.default\:PWMGEN_STM32F051.elf
 eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:PWMGEN.elf/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:PWMGEN.elf/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:PWMGEN_STM32F051.elf/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:PWMGEN_STM32F051.elf/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
