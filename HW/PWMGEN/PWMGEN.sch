@@ -282,17 +282,6 @@ F 3 "" H 10350 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MMBT3904 Q1
-U 1 1 5D98DE38
-P 8550 1900
-F 0 "Q1" V 8785 1900 50  0000 C CNN
-F 1 "MMBT3904" V 8874 1900 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8750 1825 50  0001 L CIN
-F 3 "https://docs-emea.rs-online.com/webdocs/1276/0900766b81276adc.pdf" H 8550 1900 50  0001 L CNN
-	1    8550 1900
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R4
 U 1 1 5D98FAB4
 P 8550 1450
@@ -1086,4 +1075,15 @@ F 3 "~" H 10150 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10300 2100 10400 2100
+$Comp
+L Transistor_BJT:PZT2222A Q1
+U 1 1 5D9DF7B8
+P 8550 1900
+F 0 "Q1" V 8785 1900 50  0000 C CNN
+F 1 "PZT2222A" V 8876 1900 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 8750 1825 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 8550 1900 50  0001 L CNN
+	1    8550 1900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
