@@ -157,8 +157,6 @@ F 3 "" H 2850 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 6400 2850 6300
-Wire Wire Line
 	2850 6700 2850 6850
 $Comp
 L Device:R R3
@@ -761,17 +759,6 @@ Wire Wire Line
 	5200 7000 5200 7150
 Connection ~ 5200 7150
 $Comp
-L Device:R R7
-U 1 1 5DA38252
-P 1100 6200
-F 0 "R7" V 1000 6150 50  0000 L CNN
-F 1 "0R" V 1200 6150 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1030 6200 50  0001 C CNN
-F 3 "~" H 1100 6200 50  0001 C CNN
-	1    1100 6200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5DA4BE47
 P 2150 4200
@@ -873,8 +860,6 @@ Text Label 4600 5900 2    50   ~ 0
 ACTIVE
 Wire Wire Line
 	4350 5900 4600 5900
-Wire Wire Line
-	1100 6050 1100 5950
 $Comp
 L MCU_ST_STM32F0:STM32F051K8Tx U1
 U 1 1 5D9B3C79
@@ -1043,21 +1028,6 @@ Wire Wire Line
 Connection ~ 9150 3750
 Wire Wire Line
 	9150 3750 9150 4050
-$Comp
-L Device:R R11
-U 1 1 5DC72B3E
-P 2850 6150
-F 0 "R11" V 2750 6100 50  0000 L CNN
-F 1 "0R" V 2950 6100 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2780 6150 50  0001 C CNN
-F 3 "~" H 2850 6150 50  0001 C CNN
-	1    2850 6150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2850 6000 2850 5950
-Wire Wire Line
-	1100 6350 1100 6400
 Text Notes 700  7050 0    50   ~ 0
 CURRENT\nLIMITER
 Wire Wire Line
@@ -1086,4 +1056,8 @@ F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 8550 1900 50  0001 L CNN
 	1    8550 1900
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	2850 5950 2850 6400
+Wire Wire Line
+	1100 5950 1100 6400
 $EndSCHEMATC
