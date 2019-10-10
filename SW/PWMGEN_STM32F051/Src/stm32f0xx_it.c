@@ -59,6 +59,7 @@
 /* External variables --------------------------------------------------------*/
 extern DMA_HandleTypeDef hdma_adc;
 extern TIM_HandleTypeDef htim1;
+extern TIM_HandleTypeDef htim16;
 extern TIM_HandleTypeDef htim17;
 /* USER CODE BEGIN EV */
 
@@ -148,22 +149,27 @@ void SysTick_Handler(void)
 void EXTI2_3_IRQHandler(void)
 {
   /* USER CODE BEGIN EXTI2_3_IRQn 0 */
-	if(htim1.Instance->PSC >= 65535)
+	if((htim16.Instance->CNT - lastdebouncetime) > maxdebouncedelay)
 	{
-		htim1.Instance->PSC = 1;
-	}
-	else
-	{
-		if(htim1.Instance->PSC * 2 >= 65535)
+		if(htim1.Instance->PSC >= 65535)
 		{
 			htim1.Instance->PSC = 1;
 		}
 		else
 		{
-			htim1.Instance->PSC = htim1.Instance->PSC * 2;
-		}
+			if(htim1.Instance->PSC * 2 >= 65535)
+			{
+				htim1.Instance->PSC = 1;
+			}
+			else
+			{
+				htim1.Instance->PSC = htim1.Instance->PSC * 2;
+			}
 
+		}
+		lastdebouncetime = htim16.Instance->CNT;
 	}
+
   /* USER CODE END EXTI2_3_IRQn 0 */
   HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_3);
   /* USER CODE BEGIN EXTI2_3_IRQn 1 */
@@ -202,13 +208,34 @@ void TIM1_BRK_UP_TRG_COM_IRQHandler(void)
 }
 
 /**
+  * @brief This function handles TIM16 global interrupt.
+  */
+void TIM16_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM16_IRQn 0 */
+
+  /* USER CODE END TIM16_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim16);
+  /* USER CODE BEGIN TIM16_IRQn 1 */
+
+  /* USER CODE END TIM16_IRQn 1 */
+}
+
+/**
   * @brief This function handles TIM17 global interrupt.
   */
 void TIM17_IRQHandler(void)
 {
   /* USER CODE BEGIN TIM17_IRQn 0 */
-	htim1.Instance->ARR = input[0];
-
+	uint32_t oversample_freq = 0;
+    for (int i = 0; i < sizeof(input)/2; i++) {
+    	if (i % 2 == 0)
+    		oversample_freq += input[i];
+    }
+    oversample_freq = oversample_freq >> OVERSAMPLE_RSHIFT;
+	//uint32_t oversample = input[0] +input[2] +input[4] +input[6] +input[8] +input[10] +input[12] +input[14] +input[16] + input[18];
+	//htim1.Instance->ARR = oversample / 10;
+	htim1.Instance->ARR = oversample_freq;
 	//if(pwm_value == 0) step = 10;
 	//if(pwm_value >= htim1.Instance->ARR) step = -10;
 	//pwm_value += step;

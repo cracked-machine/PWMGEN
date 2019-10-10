@@ -48,7 +48,9 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint32_t input[32] = {0};
+uint32_t input[SAMPLE_RESOLUTION] = {0};
+uint32_t lastdebouncetime = 0;
+uint32_t maxdebouncedelay = 500;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -95,10 +97,13 @@ int main(void)
   MX_TIM1_Init();
   MX_ADC_Init();
   MX_TIM17_Init();
+  MX_TIM16_Init();
   /* USER CODE BEGIN 2 */
-  HAL_ADC_Start_DMA(&hadc, input, 32);
+  HAL_ADCEx_Calibration_Start(&hadc);
+  HAL_ADC_Start_DMA(&hadc, input, SAMPLE_RESOLUTION);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
   HAL_TIM_Base_Start_IT(&htim17);
+  HAL_TIM_Base_Start_IT(&htim16);
 
 
   /* USER CODE END 2 */
