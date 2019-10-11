@@ -235,7 +235,7 @@ void TIM17_IRQHandler(void)
     oversample_freq = oversample_freq >> OVERSAMPLE_RSHIFT;
 	//uint32_t oversample = input[0] +input[2] +input[4] +input[6] +input[8] +input[10] +input[12] +input[14] +input[16] + input[18];
 	//htim1.Instance->ARR = oversample / 10;
-	htim1.Instance->ARR = oversample_freq;
+	//htim1.Instance->ARR = oversample_freq;
 	//if(pwm_value == 0) step = 10;
 	//if(pwm_value >= htim1.Instance->ARR) step = -10;
 	//pwm_value += step;

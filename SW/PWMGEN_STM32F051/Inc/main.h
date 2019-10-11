@@ -38,7 +38,7 @@ extern "C" {
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
 #define SAMPLE_RESOLUTION 8
-#define OVERSAMPLE_RSHIFT 2
+#define OVERSAMPLE_RSHIFT 1
 extern uint32_t input[SAMPLE_RESOLUTION];
 extern uint32_t lastdebouncetime;
 extern uint32_t maxdebouncedelay;
