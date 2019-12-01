@@ -3,5 +3,5 @@
 
 
 <P>
-<img src="HW/PWMGEN/DOCS/PWMGEN.svg" width=500 height=500> 
+<img src="HW/PWMGEN/DOCS/PWMGEN.svg" width=1000 height=1000> 
 </P>
