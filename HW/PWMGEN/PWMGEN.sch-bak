@@ -54,8 +54,8 @@ F 3 "" H 8950 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9550 4550 10100 4550
-Text Label 10100 4550 2    50   ~ 0
+	9550 4550 10050 4550
+Text Label 10050 4550 2    50   ~ 0
 PSC_SELECT
 Wire Wire Line
 	9550 4250 10100 4250
@@ -67,7 +67,7 @@ Text Label 10100 4250 2    50   ~ 0
 FREQADJUST
 Wire Wire Line
 	10100 5050 9750 5050
-Text Label 10100 4850 2    50   ~ 0
+Text Label 10450 4850 2    50   ~ 0
 ACTIVE
 Wire Wire Line
 	9550 5550 10100 5550
@@ -883,7 +883,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 4850 9750 5050
 Wire Wire Line
-	9750 4850 10100 4850
+	9750 4850 10450 4850
 Connection ~ 9750 5050
 Wire Wire Line
 	9750 5050 9550 5050
@@ -1060,12 +1060,4 @@ Wire Wire Line
 	2850 5950 2850 6400
 Wire Wire Line
 	1100 5950 1100 6400
-Text Notes 10150 4550 0    50   ~ 0
-(EXTI)
-Text Notes 10150 4250 0    50   ~ 0
-(ADC)
-Text Notes 10150 4350 0    50   ~ 0
-(ADC)
-Text Notes 10150 5050 0    50   ~ 0
-(TIM1 CH1 PWM)
 $EndSCHEMATC
