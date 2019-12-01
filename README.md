@@ -7,7 +7,7 @@
 * Supports both 3.3v and 5v logic level outputs.
 * Output PWM can source 600mA.
 
-## TODO
+### TODO
 
 * 5V PSU input (remove uA78M05C)
 * Increase PWM source current capabilities. (Use bigger series pass transistor)
