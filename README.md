@@ -13,5 +13,5 @@
 * Increase PWM source current capabilities. (Use bigger series pass transistor and regulators)
 * Improve prescaler control input (use N-times throw switch and N-times GPIO input)
 
-<a href="HW/PWMGEN/DOCS/PWMGEN.svg" width=1000 height=600> </a>
+<img src="HW/PWMGEN/DOCS/PWMGEN.svg" width=1000 height=600>
 
